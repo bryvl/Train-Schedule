@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <div id="current-trains" class="content-box">
+        <header>Train Schedule</header>
+        <table id="train-list">
+                <tr class="table-row">
+                    <td class="table-data">Train Name</td>
+                    <td class="table-data">Destination</td>
+                    <td class="table-data">Frequency(min)</td>
+                    <td class="table-data">Next Arrival</td>
+                    <td class="table-data">Minutes Away</td>
+                </tr>
+        </table>
+    </div>
+    <div id="add-train" class="content-box">
+        <header>Add Train</header>
+        <form>
+            <div class="form-element">
+                <label for="train-name-input">Train name</label>
+                <input id="train-name-input">
+            </div>
+            <div class="form-element">
+                <label for="destination-input">Destination</label>
+                <input id="destination-input">
+            </div>
+            <div class="form-element">
+                <label for="train-time-input">First Train Time (HH:mm - Military Time)</label>
+                <input id="train-time-input">
+            </div>
+            <div class="form-element">
+                <label for="frequency-input">Frequency (min)</label>
+                <input id="frequency-input">
+            </div>
+            <button id="submit-btn">Submit</button>
+        </form>
+    </div>
+    <script src="./javascript/app.js"></script>
+</body>
+</html>

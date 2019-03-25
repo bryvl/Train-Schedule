@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(93, 137, 219);
+}
+
+.content-box{
+    width: 80%;
+    min-height: 300px;
+    height: auto;
+
+    margin: 10px auto;
+
+    border: 1px solid cornflowerblue;
+    border-radius: 3px;
+
+    font-weight: bold;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    font-size: 1.5rem;
+}
+
+/* Table List */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-row {
+    margin: 10px auto;
+    border-bottom: 1px solid cornflowerblue;
+}
+.table-data {
+    width: 20%;
+    border-right: 1px solid cornflowerblue;
+}
+.last-cell {
+    border: none;
+}
+
+/* ----------------Input Form---------------- */
+input {
+    display: block;
+    width: 95%;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    line-height: 2;
+}
+.form-element {
+    margin: 5px;
+}
+
+#submit-btn {
+    height: 40px;
+    margin: 20px 0 0 10px;
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    font-size: 1.5rem;
+
+}
+/* Pseudo Classes */
+#submit-btn:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+input:hover {
+    border: 2px solid cornflowerblue;
+}
